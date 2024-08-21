@@ -12,4 +12,12 @@ El objetivo es cargar usando Python desde la API los datos relativos a la incide
 
 Una vez cargados, hacer una exploración de esos datos y elaborar un informe con las conclusiones y los descubrimientos. 
 
-🗣️ Contaremos la historia que hemos leído en ellos!
+### 🗣️ Contaremos la historia que hemos leído en ellos!
+
+## 👩🏻‍🔬👨🏻‍🔬 Nuestro comité de investigadores está compuesto por:
+
+- María Rosa Cuenca
+- Nathaly Freire
+- Aitor Pérez
+- Ángel Sanz
+- Sergio Sierra
