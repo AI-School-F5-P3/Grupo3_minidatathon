@@ -7,7 +7,8 @@ from bokeh.layouts import column
 from bokeh.palettes import Viridis256
 import json
 from bokeh.models.widgets import Div
-
+'''para ver la visualización de número de muertes, ejecutar en el terminal 
+el comando: bokeh serve --show death.py '''
 # Cargar los datos de COVID-19 desde el archivo JSON
 with open('daily.json', 'r') as f:
     data = json.load(f)
@@ -87,5 +88,5 @@ layout = column(p, slider, date_display)
 
 # Mostrar el mapa
 curdoc().add_root(layout)
-output_file("covid_death_us_map.html")
+# output_file("covid_death_us_map.html")
 show(layout)

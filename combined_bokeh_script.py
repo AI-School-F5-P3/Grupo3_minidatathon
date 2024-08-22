@@ -6,7 +6,9 @@ from bokeh.models import GeoJSONDataSource, LinearColorMapper, ColorBar, HoverTo
 from bokeh.layouts import column, row, gridplot
 from bokeh.palettes import Viridis256
 import json
-
+'''para ver las visualizaciones de muertes, nuevas muertes, hospitalizaciones por día y
+casos positivos, ejecutar en el terminal 
+el comando: bokeh serve --show combined_bokeh_script.py '''
 # Cargar los datos de COVID-19 desde el archivo JSON
 with open('daily.json', 'r') as f:
     data = json.load(f)
